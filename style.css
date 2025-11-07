@@ -30,3 +30,20 @@ body {
             gap: 4px;
             font-size: 4rem;
         }
+
+        .services-gallery{
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 10px;
+            width: 80%;
+            margin: auto;
+            text-align: center;
+
+        }
+
+        .services-gallery img {
+            width: 100%;
+            height: 150px; 
+            object-fit: cover; 
+            border-radius: 8px;
+        }
